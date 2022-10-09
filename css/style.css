@@ -1,0 +1,96 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+}
+
+.options a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159, 159, 159);
+    margin-right: 10px;
+
+}
+
+.nav-bar img{
+    width: 250px;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.slogan{
+    width: 65%;
+    margin: auto;
+}
+
+.slogan img{
+    display: block;
+    margin: auto;
+}
+
+.slogan p{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b39b;
+    text-align: center;
+}
+
+.desc{
+    display: flex;
+    width: 65%;
+    margin: auto;
+}
+
+.desc p{
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.cible{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cible-box{
+    margin-top: 20px;
+    height: 300px;
+    width: 25%;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.patients{
+    background-color: #00b39b;
+}
+
+.doctors{
+    background-color: rgb(93, 197, 223);
+}
+
+.clinics{
+    background-color: black;
+}
+
+.cible-box select{
+    position: absolute;
+    bottom: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+}
